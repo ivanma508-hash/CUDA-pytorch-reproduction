@@ -1,0 +1,213 @@
+float32, batch_size = 128
+Probability/event caches cleared.
+Prepared action tensors:
+device: cuda
+A = 121
+
+======================================================================
+Configured P1
+======================================================================
+mu_a, mu_b: 5.0 5.0
+Qa max, Qb max: 10 10
+Qa levels, Qb levels: 11 11
+state count: 14641
+paper N: 14641
+state count matches paper: True
+actions per state: 121
+device: cuda
+Using device: cuda
+GPU: Tesla T4
+Prepared action tensors:
+device: cuda
+A = 121
+Prepared state-event tensors
+N = 14641
+Emax = 462
+device = cuda
+[Torch-batched] Iteration   0: time=0.682s, span=10.00000000, pi_est=5.000000
+[Torch-batched] Iteration   5: time=0.675s, span=0.04119110, pi_est=4.491581
+[Torch-batched] Iteration  10: time=0.675s, span=0.00040436, pi_est=4.503269
+[Torch-batched] Iteration  15: time=0.675s, span=0.00003815, pi_est=4.503201
+[Torch-batched] Iteration  20: time=0.675s, span=0.00006104, pi_est=4.503204
+[Torch-batched] Iteration  25: time=0.674s, span=0.00006866, pi_est=4.503201
+[Torch-batched] Iteration  30: time=0.675s, span=0.00006104, pi_est=4.503204
+[Torch-batched] Iteration  35: time=0.675s, span=0.00012207, pi_est=4.503204
+[Torch-batched] Iteration  40: time=0.676s, span=0.00012207, pi_est=4.503204
+[Torch-batched] Iteration  45: time=0.676s, span=0.00012207, pi_est=4.503204
+[Torch-batched] Iteration  50: time=0.676s, span=0.00010681, pi_est=4.503212
+[Torch-batched] Iteration  55: time=0.676s, span=0.00012207, pi_est=4.503204
+[Torch-batched] Iteration  60: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  65: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  70: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  75: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  80: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  85: time=0.676s, span=0.00018311, pi_est=4.503204
+[Torch-batched] Iteration  90: time=0.676s, span=0.00021362, pi_est=4.503220
+[Torch-batched] Iteration  95: time=0.676s, span=0.00024414, pi_est=4.503204
+[Torch-batched] Iteration  99: time=0.676s, span=0.00018311, pi_est=4.503204
+
+========== Torch-batched Result ==========
+Total wall time: 67.62543222900058 sec
+Sum of iteration times: 67.57281249799962 sec
+Average iteration time: 0.6757281249799962 sec
+Final pi_est: 4.503204345703125
+Final span: 0.00018310546875
+Probability/event caches cleared.
+Prepared action tensors:
+device: cuda
+A = 143
+
+======================================================================
+Configured P2
+======================================================================
+mu_a, mu_b: 5.0 6.0
+Qa max, Qb max: 10 12
+Qa levels, Qb levels: 11 13
+state count: 20449
+paper N: 20449
+state count matches paper: True
+actions per state: 143
+device: cuda
+Using device: cuda
+GPU: Tesla T4
+Prepared action tensors:
+device: cuda
+A = 143
+Prepared state-event tensors
+N = 20449
+Emax = 546
+device = cuda
+[Torch-batched] Iteration   0: time=1.311s, span=11.00000000, pi_est=5.500000
+[Torch-batched] Iteration   5: time=1.309s, span=0.03934479, pi_est=4.992401
+[Torch-batched] Iteration  10: time=1.308s, span=0.00053787, pi_est=5.003675
+[Torch-batched] Iteration  15: time=1.308s, span=0.00005341, pi_est=5.003605
+[Torch-batched] Iteration  20: time=1.307s, span=0.00005341, pi_est=5.003605
+[Torch-batched] Iteration  25: time=1.307s, span=0.00006104, pi_est=5.003601
+[Torch-batched] Iteration  30: time=1.307s, span=0.00010681, pi_est=5.003593
+[Torch-batched] Iteration  35: time=1.308s, span=0.00009155, pi_est=5.003601
+[Torch-batched] Iteration  40: time=1.308s, span=0.00012207, pi_est=5.003601
+[Torch-batched] Iteration  45: time=1.308s, span=0.00010681, pi_est=5.003609
+[Torch-batched] Iteration  50: time=1.308s, span=0.00015259, pi_est=5.003586
+[Torch-batched] Iteration  55: time=1.308s, span=0.00021362, pi_est=5.003586
+[Torch-batched] Iteration  60: time=1.308s, span=0.00021362, pi_est=5.003616
+[Torch-batched] Iteration  65: time=1.308s, span=0.00018311, pi_est=5.003601
+[Torch-batched] Iteration  70: time=1.308s, span=0.00021362, pi_est=5.003586
+[Torch-batched] Iteration  75: time=1.308s, span=0.00021362, pi_est=5.003586
+[Torch-batched] Iteration  80: time=1.308s, span=0.00021362, pi_est=5.003616
+[Torch-batched] Iteration  85: time=1.308s, span=0.00024414, pi_est=5.003601
+[Torch-batched] Iteration  90: time=1.308s, span=0.00021362, pi_est=5.003616
+[Torch-batched] Iteration  95: time=1.308s, span=0.00024414, pi_est=5.003601
+[Torch-batched] Iteration  99: time=1.308s, span=0.00024414, pi_est=5.003601
+
+========== Torch-batched Result ==========
+Total wall time: 130.83977430400046 sec
+Sum of iteration times: 130.78615176700077 sec
+Average iteration time: 1.3078615176700077 sec
+Final pi_est: 5.00360107421875
+Final span: 0.000244140625
+Probability/event caches cleared.
+Prepared action tensors:
+device: cuda
+A = 169
+
+======================================================================
+Configured P3
+======================================================================
+mu_a, mu_b: 6.0 6.0
+Qa max, Qb max: 12 12
+Qa levels, Qb levels: 13 13
+state count: 28561
+paper N: 28561
+state count matches paper: True
+actions per state: 169
+device: cuda
+Using device: cuda
+GPU: Tesla T4
+Prepared action tensors:
+device: cuda
+A = 169
+Prepared state-event tensors
+N = 28561
+Emax = 650
+device = cuda
+[Torch-batched] Iteration   0: time=2.551s, span=12.00000000, pi_est=6.000000
+[Torch-batched] Iteration   5: time=2.548s, span=0.04053879, pi_est=5.496222
+[Torch-batched] Iteration  10: time=2.547s, span=0.00026703, pi_est=5.508770
+[Torch-batched] Iteration  15: time=2.548s, span=0.00005341, pi_est=5.508717
+[Torch-batched] Iteration  20: time=2.548s, span=0.00006866, pi_est=5.508717
+[Torch-batched] Iteration  25: time=2.549s, span=0.00010681, pi_est=5.508705
+[Torch-batched] Iteration  30: time=2.549s, span=0.00009155, pi_est=5.508713
+[Torch-batched] Iteration  35: time=2.549s, span=0.00010681, pi_est=5.508720
+[Torch-batched] Iteration  40: time=2.549s, span=0.00012207, pi_est=5.508713
+[Torch-batched] Iteration  45: time=2.549s, span=0.00015259, pi_est=5.508713
+[Torch-batched] Iteration  50: time=2.549s, span=0.00018311, pi_est=5.508698
+[Torch-batched] Iteration  55: time=2.549s, span=0.00018311, pi_est=5.508728
+[Torch-batched] Iteration  60: time=2.549s, span=0.00018311, pi_est=5.508698
+[Torch-batched] Iteration  65: time=2.548s, span=0.00018311, pi_est=5.508728
+[Torch-batched] Iteration  70: time=2.548s, span=0.00021362, pi_est=5.508713
+[Torch-batched] Iteration  75: time=2.549s, span=0.00024414, pi_est=5.508728
+[Torch-batched] Iteration  80: time=2.548s, span=0.00024414, pi_est=5.508728
+[Torch-batched] Iteration  85: time=2.549s, span=0.00021362, pi_est=5.508713
+[Torch-batched] Iteration  90: time=2.548s, span=0.00027466, pi_est=5.508713
+[Torch-batched] Iteration  95: time=2.549s, span=0.00036621, pi_est=5.508728
+[Torch-batched] Iteration  99: time=2.548s, span=0.00036621, pi_est=5.508728
+
+========== Torch-batched Result ==========
+Total wall time: 254.89692139399995 sec
+Sum of iteration times: 254.84292069299772 sec
+Average iteration time: 2.548429206929977 sec
+Final pi_est: 5.50872802734375
+Final span: 0.0003662109375
+Probability/event caches cleared.
+Prepared action tensors:
+device: cuda
+A = 196
+
+======================================================================
+Configured P4
+======================================================================
+mu_a, mu_b: 7.0 7.0
+Qa max, Qb max: 13 13
+Qa levels, Qb levels: 14 14
+state count: 38416
+paper N: 38416
+state count matches paper: True
+actions per state: 196
+device: cuda
+Using device: cuda
+GPU: Tesla T4
+Prepared action tensors:
+device: cuda
+A = 196
+Prepared state-event tensors
+N = 38416
+Emax = 756
+device = cuda
+[Torch-batched] Iteration   0: time=4.608s, span=14.00000095, pi_est=7.000000
+[Torch-batched] Iteration   5: time=4.596s, span=0.04079056, pi_est=6.506983
+[Torch-batched] Iteration  10: time=4.600s, span=0.00023651, pi_est=6.518368
+[Torch-batched] Iteration  15: time=4.602s, span=0.00006104, pi_est=6.518341
+[Torch-batched] Iteration  20: time=4.601s, span=0.00009155, pi_est=6.518341
+[Torch-batched] Iteration  25: time=4.600s, span=0.00010681, pi_est=6.518349
+[Torch-batched] Iteration  30: time=4.600s, span=0.00012207, pi_est=6.518341
+[Torch-batched] Iteration  35: time=4.600s, span=0.00012207, pi_est=6.518341
+[Torch-batched] Iteration  40: time=4.599s, span=0.00018311, pi_est=6.518341
+[Torch-batched] Iteration  45: time=4.599s, span=0.00018311, pi_est=6.518341
+[Torch-batched] Iteration  50: time=4.599s, span=0.00024414, pi_est=6.518341
+[Torch-batched] Iteration  55: time=4.599s, span=0.00021362, pi_est=6.518326
+[Torch-batched] Iteration  60: time=4.600s, span=0.00018311, pi_est=6.518341
+[Torch-batched] Iteration  65: time=4.600s, span=0.00018311, pi_est=6.518341
+[Torch-batched] Iteration  70: time=4.600s, span=0.00018311, pi_est=6.518341
+[Torch-batched] Iteration  75: time=4.600s, span=0.00024414, pi_est=6.518341
+[Torch-batched] Iteration  80: time=4.601s, span=0.00036621, pi_est=6.518311
+[Torch-batched] Iteration  85: time=4.601s, span=0.00036621, pi_est=6.518372
+[Torch-batched] Iteration  90: time=4.600s, span=0.00042725, pi_est=6.518341
+[Torch-batched] Iteration  95: time=4.600s, span=0.00036621, pi_est=6.518372
+[Torch-batched] Iteration  99: time=4.600s, span=0.00042725, pi_est=6.518341
+
+========== Torch-batched Result ==========
+Total wall time: 460.052305747 sec
+Sum of iteration times: 459.9972190110184 sec
+Average iteration time: 4.599972190110184 sec
+Final pi_est: 6.518341064453125
+Final span: 0.00042724609375

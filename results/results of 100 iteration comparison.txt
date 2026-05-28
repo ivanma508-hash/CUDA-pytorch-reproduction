@@ -1,0 +1,797 @@
+Generic 100 iterations results(Sextion 7.1 in notebook)
+####################################################################################################
+Running P1
+####################################################################################################
+Probability/event caches cleared.
+
+======================================================================
+Configured P1
+======================================================================
+mu_a, mu_b: 5.0 5.0
+Qa max, Qb max: 10 10
+Qa levels, Qb levels: 11 11
+state count: 14641
+paper N: 14641
+state count matches paper: True
+actions per state: 121
+device: cuda
+Current configuration:
+M = 2
+Qa = 10
+Qb = 10
+mu_a = 5.0
+mu_b = 5.0
+Number of states = 14641
+Number of actions per state = 121
+Device: cuda
+
+================================================================================
+Running full Torch 100 iterations
+================================================================================
+[Torch] Iteration   0: time=20.367s, span=9.99999984, pi_est=5.000000
+[Torch] Iteration   1: time=18.056s, span=6.52970351, pi_est=6.699233
+[Torch] Iteration   2: time=18.303s, span=1.23311569, pi_est=4.060724
+[Torch] Iteration   3: time=18.682s, span=0.29568817, pi_est=4.502450
+[Torch] Iteration   4: time=18.218s, span=0.18104019, pi_est=4.559294
+[Torch] Iteration   5: time=18.466s, span=0.04118942, pi_est=4.491578
+[Torch] Iteration   6: time=18.874s, span=0.01626538, pi_est=4.503557
+[Torch] Iteration   7: time=18.030s, span=0.00502230, pi_est=4.504041
+[Torch] Iteration   8: time=18.203s, span=0.00200560, pi_est=4.502712
+[Torch] Iteration   9: time=18.111s, span=0.00059973, pi_est=4.503218
+[Torch] Iteration  10: time=18.019s, span=0.00040124, pi_est=4.503270
+[Torch] Iteration  11: time=18.055s, span=0.00015851, pi_est=4.503182
+[Torch] Iteration  12: time=18.077s, span=0.00007102, pi_est=4.503210
+[Torch] Iteration  13: time=18.152s, span=0.00004893, pi_est=4.503215
+[Torch] Iteration  14: time=17.822s, span=0.00001759, pi_est=4.503201
+[Torch] Iteration  15: time=18.282s, span=0.00000866, pi_est=4.503203
+[Torch] Iteration  16: time=18.224s, span=0.00000505, pi_est=4.503205
+[Torch] Iteration  17: time=18.556s, span=0.00000171, pi_est=4.503203
+[Torch] Iteration  18: time=18.241s, span=0.00000114, pi_est=4.503203
+[Torch] Iteration  19: time=17.794s, span=0.00000058, pi_est=4.503203
+[Torch] Iteration  20: time=18.848s, span=0.00000019, pi_est=4.503203
+[Torch] Iteration  21: time=18.103s, span=0.00000014, pi_est=4.503203
+[Torch] Iteration  22: time=17.973s, span=0.00000007, pi_est=4.503203
+[Torch] Iteration  23: time=18.257s, span=0.00000002, pi_est=4.503203
+[Torch] Iteration  24: time=17.805s, span=0.00000002, pi_est=4.503203
+[Torch] Iteration  25: time=17.941s, span=0.00000001, pi_est=4.503203
+[Torch] Iteration  26: time=18.100s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  27: time=18.046s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  28: time=17.934s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  29: time=17.883s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  30: time=18.283s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  31: time=17.680s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  32: time=18.749s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  33: time=17.791s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  34: time=17.865s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  35: time=17.782s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  36: time=18.550s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  37: time=18.200s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  38: time=17.913s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  39: time=18.044s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  40: time=17.931s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  41: time=18.047s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  42: time=18.917s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  43: time=17.799s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  44: time=17.807s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  45: time=18.173s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  46: time=17.803s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  47: time=17.841s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  48: time=18.122s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  49: time=17.987s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  50: time=18.084s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  51: time=19.075s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  52: time=18.149s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  53: time=18.316s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  54: time=18.585s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  55: time=18.369s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  56: time=18.160s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  57: time=18.065s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  58: time=18.056s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  59: time=17.910s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  60: time=17.763s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  61: time=18.302s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  62: time=18.688s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  63: time=17.850s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  64: time=18.134s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  65: time=18.264s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  66: time=17.998s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  67: time=18.300s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  68: time=18.341s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  69: time=17.936s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  70: time=17.982s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  71: time=18.005s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  72: time=18.968s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  73: time=18.075s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  74: time=18.112s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  75: time=18.067s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  76: time=17.912s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  77: time=17.938s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  78: time=17.865s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  79: time=17.943s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  80: time=17.886s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  81: time=18.470s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  82: time=17.896s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  83: time=17.901s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  84: time=17.840s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  85: time=17.893s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  86: time=17.852s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  87: time=17.849s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  88: time=18.101s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  89: time=17.913s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  90: time=18.200s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  91: time=17.959s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  92: time=18.663s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  93: time=18.625s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  94: time=17.951s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  95: time=18.139s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  96: time=18.100s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  97: time=17.948s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  98: time=17.970s, span=0.00000000, pi_est=4.503203
+[Torch] Iteration  99: time=18.028s, span=0.00000000, pi_est=4.503203
+
+========== Torch 100-Iteration Result ==========
+Total time: 1815.1253687610001 sec
+Average iteration time: 18.151025730980017 sec
+Final pi_est: 4.503203055351008
+Final span: 3.979039320256561e-13
+
+========== Timing Summary ==========
+  instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+0       P1  Torch         100  14641      10      10         11         11   
+
+   mu_a  mu_b  total_iter_sec  avg_iter_sec  final_pi_est    final_span  
+0   5.0   5.0     1815.102573     18.151026      4.503203  3.979039e-13  
+
+========== Comparison with Paper Table 4 ==========
+  instance method      N  paper_N  iterations  total_iter_sec  avg_iter_sec  \
+0       P1  Torch  14641    14641         100     1815.102573     18.151026   
+
+   paper_gpu_total_sec  paper_seq_total_sec  paper_total_speedup  \
+0                91.29               357.89             3.920364   
+
+   paper_substitution_speedup  final_pi_est    final_span  
+0                    8.795944      4.503203  3.979039e-13  
+
+####################################################################################################
+Running P2
+####################################################################################################
+Probability/event caches cleared.
+
+======================================================================
+Configured P2
+======================================================================
+mu_a, mu_b: 5.0 6.0
+Qa max, Qb max: 10 12
+Qa levels, Qb levels: 11 13
+state count: 20449
+paper N: 20449
+state count matches paper: True
+actions per state: 143
+device: cuda
+Current configuration:
+M = 2
+Qa = 10
+Qb = 12
+mu_a = 5.0
+mu_b = 6.0
+Number of states = 20449
+Number of actions per state = 143
+Device: cuda
+
+================================================================================
+Running full Torch 100 iterations
+================================================================================
+[Torch] Iteration   0: time=28.643s, span=10.99999989, pi_est=5.500000
+[Torch] Iteration   1: time=25.642s, span=7.10264173, pi_est=7.417125
+[Torch] Iteration   2: time=25.686s, span=1.31446240, pi_est=4.532641
+[Torch] Iteration   3: time=25.537s, span=0.33508499, pi_est=4.991135
+[Torch] Iteration   4: time=25.696s, span=0.18820681, pi_est=5.064080
+[Torch] Iteration   5: time=26.619s, span=0.03934823, pi_est=4.992406
+[Torch] Iteration   6: time=25.815s, span=0.01306450, pi_est=5.004730
+[Torch] Iteration   7: time=25.761s, span=0.00637472, pi_est=5.004894
+[Torch] Iteration   8: time=25.635s, span=0.00200519, pi_est=5.003217
+[Torch] Iteration   9: time=25.685s, span=0.00087302, pi_est=5.003630
+[Torch] Iteration  10: time=25.570s, span=0.00052866, pi_est=5.003671
+[Torch] Iteration  11: time=25.581s, span=0.00021211, pi_est=5.003551
+[Torch] Iteration  12: time=25.369s, span=0.00007049, pi_est=5.003607
+[Torch] Iteration  13: time=25.564s, span=0.00005037, pi_est=5.003609
+[Torch] Iteration  14: time=25.533s, span=0.00001976, pi_est=5.003598
+[Torch] Iteration  15: time=27.490s, span=0.00000653, pi_est=5.003603
+[Torch] Iteration  16: time=25.513s, span=0.00000451, pi_est=5.003603
+[Torch] Iteration  17: time=25.510s, span=0.00000175, pi_est=5.003602
+[Torch] Iteration  18: time=25.676s, span=0.00000059, pi_est=5.003602
+[Torch] Iteration  19: time=26.452s, span=0.00000040, pi_est=5.003603
+[Torch] Iteration  20: time=25.822s, span=0.00000015, pi_est=5.003602
+[Torch] Iteration  21: time=25.380s, span=0.00000005, pi_est=5.003602
+[Torch] Iteration  22: time=26.540s, span=0.00000004, pi_est=5.003602
+[Torch] Iteration  23: time=25.797s, span=0.00000001, pi_est=5.003602
+[Torch] Iteration  24: time=25.991s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  25: time=25.611s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  26: time=25.529s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  27: time=25.835s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  28: time=25.497s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  29: time=25.611s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  30: time=25.698s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  31: time=25.713s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  32: time=25.483s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  33: time=25.898s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  34: time=25.912s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  35: time=25.640s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  36: time=25.450s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  37: time=25.518s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  38: time=25.475s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  39: time=26.340s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  40: time=25.331s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  41: time=25.412s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  42: time=25.435s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  43: time=25.025s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  44: time=25.027s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  45: time=25.232s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  46: time=25.320s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  47: time=25.387s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  48: time=25.418s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  49: time=25.206s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  50: time=25.184s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  51: time=25.346s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  52: time=25.389s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  53: time=25.104s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  54: time=25.087s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  55: time=25.222s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  56: time=25.183s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  57: time=25.202s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  58: time=25.203s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  59: time=25.643s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  60: time=25.449s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  61: time=24.975s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  62: time=25.402s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  63: time=25.198s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  64: time=25.143s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  65: time=25.185s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  66: time=25.199s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  67: time=25.202s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  68: time=25.641s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  69: time=26.684s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  70: time=25.324s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  71: time=25.307s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  72: time=25.395s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  73: time=25.292s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  74: time=25.263s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  75: time=25.104s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  76: time=25.266s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  77: time=25.307s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  78: time=25.335s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  79: time=25.250s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  80: time=25.412s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  81: time=25.302s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  82: time=25.106s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  83: time=25.190s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  84: time=25.749s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  85: time=25.904s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  86: time=25.189s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  87: time=25.370s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  88: time=25.423s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  89: time=25.322s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  90: time=25.462s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  91: time=25.281s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  92: time=25.143s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  93: time=25.422s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  94: time=25.505s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  95: time=25.124s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  96: time=25.374s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  97: time=25.374s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  98: time=25.569s, span=0.00000000, pi_est=5.003602
+[Torch] Iteration  99: time=25.084s, span=0.00000000, pi_est=5.003602
+
+========== Torch 100-Iteration Result ==========
+Total time: 2553.324631393 sec
+Average iteration time: 25.533009322139975 sec
+Final pi_est: 5.003602471849717
+Final span: 4.547473508864641e-13
+
+========== Timing Summary ==========
+  instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+0       P2  Torch         100  20449      10      12         11         13   
+
+   mu_a  mu_b  total_iter_sec  avg_iter_sec  final_pi_est    final_span  
+0   5.0   6.0     2553.300932     25.533009      5.003602  4.547474e-13  
+
+========== Comparison with Paper Table 4 ==========
+  instance method      N  paper_N  iterations  total_iter_sec  avg_iter_sec  \
+0       P2  Torch  20449    20449         100     2553.300932     25.533009   
+
+   paper_gpu_total_sec  paper_seq_total_sec  paper_total_speedup  \
+0               136.84                698.2             5.102309   
+
+   paper_substitution_speedup  final_pi_est    final_span  
+0                   10.234953      5.003602  4.547474e-13  
+
+####################################################################################################
+Running P3
+####################################################################################################
+Probability/event caches cleared.
+
+======================================================================
+Configured P3
+======================================================================
+mu_a, mu_b: 6.0 6.0
+Qa max, Qb max: 12 12
+Qa levels, Qb levels: 13 13
+state count: 28561
+paper N: 28561
+state count matches paper: True
+actions per state: 169
+device: cuda
+Current configuration:
+M = 2
+Qa = 12
+Qb = 12
+mu_a = 6.0
+mu_b = 6.0
+Number of states = 28561
+Number of actions per state = 169
+Device: cuda
+
+================================================================================
+Running full Torch 100 iterations
+================================================================================
+[Torch] Iteration   0: time=40.795s, span=11.99999999, pi_est=6.000000
+[Torch] Iteration   1: time=36.507s, span=7.68803587, pi_est=8.132908
+[Torch] Iteration   2: time=36.072s, span=1.40762790, pi_est=4.998936
+[Torch] Iteration   3: time=35.736s, span=0.39002458, pi_est=5.487967
+[Torch] Iteration   4: time=35.714s, span=0.20872196, pi_est=5.577092
+[Torch] Iteration   5: time=35.840s, span=0.04053377, pi_est=5.496218
+[Torch] Iteration   6: time=35.864s, span=0.01235749, pi_est=5.509077
+[Torch] Iteration   7: time=35.774s, span=0.00711444, pi_est=5.510704
+[Torch] Iteration   8: time=35.698s, span=0.00168839, pi_est=5.508381
+[Torch] Iteration   9: time=36.001s, span=0.00089346, pi_est=5.508755
+[Torch] Iteration  10: time=36.098s, span=0.00025905, pi_est=5.508772
+[Torch] Iteration  11: time=35.957s, span=0.00006753, pi_est=5.508703
+[Torch] Iteration  12: time=36.588s, span=0.00002545, pi_est=5.508720
+[Torch] Iteration  13: time=36.546s, span=0.00000977, pi_est=5.508718
+[Torch] Iteration  14: time=35.965s, span=0.00000287, pi_est=5.508717
+[Torch] Iteration  15: time=35.890s, span=0.00000077, pi_est=5.508717
+[Torch] Iteration  16: time=36.420s, span=0.00000031, pi_est=5.508717
+[Torch] Iteration  17: time=36.011s, span=0.00000012, pi_est=5.508717
+[Torch] Iteration  18: time=35.891s, span=0.00000004, pi_est=5.508717
+[Torch] Iteration  19: time=35.965s, span=0.00000001, pi_est=5.508717
+[Torch] Iteration  20: time=35.633s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  21: time=37.116s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  22: time=36.190s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  23: time=36.372s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  24: time=35.831s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  25: time=35.454s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  26: time=35.499s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  27: time=35.787s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  28: time=35.868s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  29: time=35.840s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  30: time=36.258s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  31: time=37.785s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  32: time=35.857s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  33: time=35.921s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  34: time=35.865s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  35: time=35.836s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  36: time=35.786s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  37: time=35.677s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  38: time=35.788s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  39: time=35.703s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  40: time=35.815s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  41: time=35.663s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  42: time=35.823s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  43: time=35.973s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  44: time=35.883s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  45: time=35.515s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  46: time=36.372s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  47: time=35.949s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  48: time=36.082s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  49: time=36.899s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  50: time=36.181s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  51: time=36.404s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  52: time=36.015s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  53: time=36.098s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  54: time=36.288s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  55: time=35.860s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  56: time=35.959s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  57: time=35.791s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  58: time=35.759s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  59: time=35.606s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  60: time=35.615s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  61: time=35.845s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  62: time=35.637s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  63: time=35.841s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  64: time=35.712s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  65: time=35.408s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  66: time=36.361s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  67: time=35.825s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  68: time=36.091s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  69: time=36.171s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  70: time=35.935s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  71: time=35.520s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  72: time=35.809s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  73: time=35.731s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  74: time=35.824s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  75: time=35.909s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  76: time=35.931s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  77: time=35.725s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  78: time=35.434s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  79: time=36.665s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  80: time=36.051s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  81: time=36.325s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  82: time=36.536s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  83: time=35.929s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  84: time=35.811s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  85: time=36.070s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  86: time=36.140s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  87: time=35.975s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  88: time=36.312s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  89: time=37.397s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  90: time=36.237s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  91: time=36.591s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  92: time=35.999s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  93: time=35.661s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  94: time=35.785s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  95: time=35.769s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  96: time=35.697s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  97: time=35.704s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  98: time=36.384s, span=0.00000000, pi_est=5.508717
+[Torch] Iteration  99: time=35.796s, span=0.00000000, pi_est=5.508717
+
+========== Torch 100-Iteration Result ==========
+Total time: 3604.5203455109995 sec
+Average iteration time: 36.04493630284996 sec
+Final pi_est: 5.508717284071963
+Final span: 6.821210263296962e-13
+
+========== Timing Summary ==========
+  instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+0       P3  Torch         100  28561      12      12         13         13   
+
+   mu_a  mu_b  total_iter_sec  avg_iter_sec  final_pi_est    final_span  
+0   6.0   6.0      3604.49363     36.044936      5.508717  6.821210e-13  
+
+========== Comparison with Paper Table 4 ==========
+  instance method      N  paper_N  iterations  total_iter_sec  avg_iter_sec  \
+0       P3  Torch  28561    28561         100      3604.49363     36.044936   
+
+   paper_gpu_total_sec  paper_seq_total_sec  paper_total_speedup  \
+0               214.71              1358.04             6.324997   
+
+   paper_substitution_speedup  final_pi_est    final_span  
+0                   12.008394      5.508717  6.821210e-13  
+
+####################################################################################################
+Running P4
+####################################################################################################
+Probability/event caches cleared.
+
+======================================================================
+Configured P4
+======================================================================
+mu_a, mu_b: 7.0 7.0
+Qa max, Qb max: 13 13
+Qa levels, Qb levels: 14 14
+state count: 38416
+paper N: 38416
+state count matches paper: True
+actions per state: 196
+device: cuda
+Current configuration:
+M = 2
+Qa = 13
+Qb = 13
+mu_a = 7.0
+mu_b = 7.0
+Number of states = 38416
+Number of actions per state = 196
+Device: cuda
+
+================================================================================
+Running full Torch 100 iterations
+================================================================================
+[Torch] Iteration   0: time=56.895s, span=13.99999999, pi_est=7.000000
+[Torch] Iteration   1: time=49.663s, span=8.81003198, pi_est=9.558972
+[Torch] Iteration   2: time=49.222s, span=1.55865228, pi_est=5.942795
+[Torch] Iteration   3: time=49.671s, span=0.47741581, pi_est=6.472994
+[Torch] Iteration   4: time=49.635s, span=0.22578832, pi_est=6.597680
+[Torch] Iteration   5: time=49.755s, span=0.04079429, pi_est=6.506983
+[Torch] Iteration   6: time=49.966s, span=0.02022444, pi_est=6.517190
+[Torch] Iteration   7: time=49.800s, span=0.00530473, pi_est=6.519863
+[Torch] Iteration   8: time=50.313s, span=0.00163550, pi_est=6.518097
+[Torch] Iteration   9: time=49.420s, span=0.00093347, pi_est=6.518374
+[Torch] Iteration  10: time=49.082s, span=0.00021345, pi_est=6.518365
+[Torch] Iteration  11: time=49.430s, span=0.00011436, pi_est=6.518333
+[Torch] Iteration  12: time=49.931s, span=0.00006914, pi_est=6.518330
+[Torch] Iteration  13: time=50.309s, span=0.00001776, pi_est=6.518342
+[Torch] Iteration  14: time=50.312s, span=0.00000938, pi_est=6.518339
+[Torch] Iteration  15: time=49.735s, span=0.00000656, pi_est=6.518339
+[Torch] Iteration  16: time=49.506s, span=0.00000193, pi_est=6.518340
+[Torch] Iteration  17: time=49.600s, span=0.00000075, pi_est=6.518340
+[Torch] Iteration  18: time=49.967s, span=0.00000059, pi_est=6.518340
+[Torch] Iteration  19: time=49.787s, span=0.00000020, pi_est=6.518340
+[Torch] Iteration  20: time=49.283s, span=0.00000006, pi_est=6.518340
+[Torch] Iteration  21: time=50.480s, span=0.00000005, pi_est=6.518340
+[Torch] Iteration  22: time=49.544s, span=0.00000002, pi_est=6.518340
+[Torch] Iteration  23: time=49.330s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  24: time=49.136s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  25: time=49.529s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  26: time=49.043s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  27: time=49.257s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  28: time=49.074s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  29: time=49.099s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  30: time=49.806s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  31: time=49.371s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  32: time=49.546s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  33: time=49.126s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  34: time=49.164s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  35: time=49.350s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  36: time=49.747s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  37: time=49.573s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  38: time=49.375s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  39: time=49.117s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  40: time=49.386s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  41: time=49.715s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  42: time=49.109s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  43: time=49.440s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  44: time=49.586s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  45: time=49.563s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  46: time=49.438s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  47: time=49.357s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  48: time=49.229s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  49: time=49.662s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  50: time=49.708s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  51: time=49.255s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  52: time=49.707s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  53: time=49.262s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  54: time=49.409s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  55: time=49.182s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  56: time=49.634s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  57: time=49.240s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  58: time=50.060s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  59: time=49.590s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  60: time=49.434s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  61: time=49.750s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  62: time=50.128s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  63: time=51.174s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  64: time=50.410s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  65: time=50.068s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  66: time=49.913s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  67: time=50.672s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  68: time=50.346s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  69: time=49.893s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  70: time=49.735s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  71: time=49.612s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  72: time=49.701s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  73: time=49.667s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  74: time=50.909s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  75: time=49.744s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  76: time=49.348s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  77: time=50.180s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  78: time=49.597s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  79: time=49.664s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  80: time=49.713s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  81: time=49.093s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  82: time=49.242s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  83: time=49.755s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  84: time=49.211s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  85: time=51.923s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  86: time=49.572s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  87: time=49.409s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  88: time=49.897s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  89: time=49.366s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  90: time=48.953s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  91: time=49.370s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  92: time=49.279s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  93: time=49.275s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  94: time=49.885s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  95: time=49.810s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  96: time=49.508s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  97: time=49.283s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  98: time=49.287s, span=0.00000000, pi_est=6.518340
+[Torch] Iteration  99: time=49.689s, span=0.00000000, pi_est=6.518340
+
+========== Torch 100-Iteration Result ==========
+Total time: 4970.97315093 sec
+Average iteration time: 49.709419162040064 sec
+Final pi_est: 6.518340012877218
+Final span: 7.958078640513122e-13
+
+========== Timing Summary ==========
+  instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+0       P4  Torch         100  38416      13      13         14         14   
+
+   mu_a  mu_b  total_iter_sec  avg_iter_sec  final_pi_est    final_span  
+0   7.0   7.0     4970.941916     49.709419       6.51834  7.958079e-13  
+
+========== Comparison with Paper Table 4 ==========
+  instance method      N  paper_N  iterations  total_iter_sec  avg_iter_sec  \
+0       P4  Torch  38416    38416         100     4970.941916     49.709419   
+
+   paper_gpu_total_sec  paper_seq_total_sec  paper_total_speedup  \
+0               361.49              4241.66            11.733824   
+
+   paper_substitution_speedup  final_pi_est    final_span  
+0                    19.56551       6.51834  7.958079e-13  
+
+====================================================================================================
+All P1-P4 Summary
+====================================================================================================
+  instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+0       P1  Torch         100  14641      10      10         11         11   
+1       P2  Torch         100  20449      10      12         11         13   
+2       P3  Torch         100  28561      12      12         13         13   
+3       P4  Torch         100  38416      13      13         14         14   
+
+   mu_a  mu_b  ...  final_pi_est    final_span  paper_N  paper_seq_total_sec  \
+0   5.0   5.0  ...      4.503203  3.979039e-13    14641               357.89   
+1   5.0   6.0  ...      5.003602  4.547474e-13    20449               698.20   
+2   6.0   6.0  ...      5.508717  6.821210e-13    28561              1358.04   
+3   7.0   7.0  ...      6.518340  7.958079e-13    38416              4241.66   
+
+   paper_gpu_total_sec  paper_seq_substitution_sec  \
+0                91.29                      351.31   
+1               136.84                      688.71   
+2               214.71                     1344.82   
+3               361.49                     4217.15   
+
+   paper_gpu_substitution_sec  paper_total_speedup  \
+0                       39.94             3.920364   
+1                       67.29             5.102309   
+2                      111.99             6.324997   
+3                      215.54            11.733824   
+
+   paper_substitution_speedup  your_torch_vs_paper_gpu_ratio  
+0                    8.795944                      19.882819  
+1                   10.234953                      18.659025  
+2                   12.008394                      16.787731  
+3                   19.565510                      13.751257  
+
+[4 rows x 22 columns]
+({'P1': {'torch': {'V': array([444.72310053, 445.71943033, 446.6968892 , ..., 460.13751955,
+           460.1737078 , 460.19083636]),
+    'policy': array([[8, 7],
+           [8, 7],
+           [8, 7],
+           ...,
+           [1, 1],
+           [1, 0],
+           [1, 0]]),
+    'pi': np.float64(4.503203055351008),
+    'log':    method  iteration  iter_time_sec          span    pi_est
+    0   Torch          0      20.367416  1.000000e+01  5.000000
+    1   Torch          1      18.055594  6.529704e+00  6.699233
+    2   Torch          2      18.302694  1.233116e+00  4.060724
+    3   Torch          3      18.682085  2.956882e-01  4.502450
+    4   Torch          4      18.217966  1.810402e-01  4.559294
+    ..    ...        ...            ...           ...       ...
+    95  Torch         95      18.139420  3.979039e-13  4.503203
+    96  Torch         96      18.099706  3.979039e-13  4.503203
+    97  Torch         97      17.948212  3.410605e-13  4.503203
+    98  Torch         98      17.970218  3.979039e-13  4.503203
+    99  Torch         99      18.027553  3.979039e-13  4.503203
+    
+    [100 rows x 5 columns],
+    'total_time': np.float64(1815.1025730980016),
+    'avg_iter_time': np.float64(18.151025730980017),
+    'final_span': np.float64(3.979039320256561e-13)}},
+  'P2': {'torch': {'V': array([494.18132478, 495.18003175, 496.17085649, ..., 511.11965366,
+           511.14224955, 511.15294668]),
+    'policy': array([[8, 8],
+           [8, 8],
+           [8, 8],
+           ...,
+           [1, 0],
+           [1, 0],
+           [1, 0]]),
+    'pi': np.float64(5.003602471849717),
+    'log':    method  iteration  iter_time_sec          span    pi_est
+    0   Torch          0      28.642931  1.100000e+01  5.500000
+    1   Torch          1      25.641690  7.102642e+00  7.417125
+    2   Torch          2      25.685858  1.314462e+00  4.532641
+    3   Torch          3      25.537061  3.350850e-01  4.991135
+    4   Torch          4      25.695931  1.882068e-01  5.064080
+    ..    ...        ...            ...           ...       ...
+    95  Torch         95      25.123697  4.547474e-13  5.003602
+    96  Torch         96      25.373860  3.979039e-13  5.003602
+    97  Torch         97      25.373548  5.115908e-13  5.003602
+    98  Torch         98      25.569080  4.547474e-13  5.003602
+    99  Torch         99      25.083569  4.547474e-13  5.003602
+    
+    [100 rows x 5 columns],
+    'total_time': np.float64(2553.3009322139974),
+    'avg_iter_time': np.float64(25.533009322139975),
+    'final_span': np.float64(4.547473508864641e-13)}},
+  'P3': {'torch': {'V': array([544.08066504, 545.07937583, 546.07023316, ..., 562.52025523,
+           562.54254107, 562.55309816]),
+    'policy': array([[9, 8],
+           [9, 8],
+           [9, 8],
+           ...,
+           [1, 0],
+           [1, 0],
+           [1, 0]]),
+    'pi': np.float64(5.508717284071963),
+    'log':    method  iteration  iter_time_sec          span    pi_est
+    0   Torch          0      40.795269  1.200000e+01  6.000000
+    1   Torch          1      36.507021  7.688036e+00  8.132908
+    2   Torch          2      36.072121  1.407628e+00  4.998936
+    3   Torch          3      35.735859  3.900246e-01  5.487967
+    4   Torch          4      35.714417  2.087220e-01  5.577092
+    ..    ...        ...            ...           ...       ...
+    95  Torch         95      35.769403  5.684342e-13  5.508717
+    96  Torch         96      35.696579  5.684342e-13  5.508717
+    97  Torch         97      35.703660  7.958079e-13  5.508717
+    98  Torch         98      36.383872  5.684342e-13  5.508717
+    99  Torch         99      35.795708  6.821210e-13  5.508717
+    
+    [100 rows x 5 columns],
+    'total_time': np.float64(3604.4936302849965),
+    'avg_iter_time': np.float64(36.04493630284996),
+    'final_span': np.float64(6.821210263296962e-13)}},
+  'P4': {'torch': {'V': array([643.8282523 , 644.8277924 , 645.82408425, ..., 665.24035352,
+           665.26852512, 665.28287358]),
+    'policy': array([[11,  9],
+           [11,  9],
+           [11,  9],
+           ...,
+           [ 2,  0],
+           [ 2,  0],
+           [ 2,  0]]),
+    'pi': np.float64(6.518340012877218),
+    'log':    method  iteration  iter_time_sec          span    pi_est
+    0   Torch          0      56.895059  1.400000e+01  7.000000
+    1   Torch          1      49.662503  8.810032e+00  9.558972
+    2   Torch          2      49.222285  1.558652e+00  5.942795
+    3   Torch          3      49.671406  4.774158e-01  6.472994
+    4   Torch          4      49.635228  2.257883e-01  6.597680
+    ..    ...        ...            ...           ...       ...
+    95  Torch         95      49.809796  6.821210e-13  6.518340
+    96  Torch         96      49.508041  7.958079e-13  6.518340
+    97  Torch         97      49.283228  7.958079e-13  6.518340
+    98  Torch         98      49.287084  7.958079e-13  6.518340
+    99  Torch         99      49.688530  7.958079e-13  6.518340
+    
+    [100 rows x 5 columns],
+    'total_time': np.float64(4970.941916204007),
+    'avg_iter_time': np.float64(49.709419162040064),
+    'final_span': np.float64(7.958078640513122e-13)}}},
+   instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+ 0       P1  Torch         100  14641      10      10         11         11   
+ 1       P2  Torch         100  20449      10      12         11         13   
+ 2       P3  Torch         100  28561      12      12         13         13   
+ 3       P4  Torch         100  38416      13      13         14         14   
+ 
+    mu_a  mu_b  total_iter_sec  avg_iter_sec  final_pi_est    final_span  
+ 0   5.0   5.0     1815.102573     18.151026      4.503203  3.979039e-13  
+ 1   5.0   6.0     2553.300932     25.533009      5.003602  4.547474e-13  
+ 2   6.0   6.0     3604.493630     36.044936      5.508717  6.821210e-13  
+ 3   7.0   7.0     4970.941916     49.709419      6.518340  7.958079e-13  ,
+   instance method  iterations      N  Qa_max  Qb_max  Qa_levels  Qb_levels  \
+ 0       P1  Torch         100  14641      10      10         11         11   
+ 1       P2  Torch         100  20449      10      12         11         13   
+ 2       P3  Torch         100  28561      12      12         13         13   
+ 3       P4  Torch         100  38416      13      13         14         14   
+ 
+    mu_a  mu_b  ...  final_pi_est    final_span  paper_N  paper_seq_total_sec  \
+ 0   5.0   5.0  ...      4.503203  3.979039e-13    14641               357.89   
+ 1   5.0   6.0  ...      5.003602  4.547474e-13    20449               698.20   
+ 2   6.0   6.0  ...      5.508717  6.821210e-13    28561              1358.04   
+ 3   7.0   7.0  ...      6.518340  7.958079e-13    38416              4241.66   
+ 
+    paper_gpu_total_sec  paper_seq_substitution_sec  \
+ 0                91.29                      351.31   
+ 1               136.84                      688.71   
+ 2               214.71                     1344.82   
+ 3               361.49                     4217.15   
+ 
+    paper_gpu_substitution_sec  paper_total_speedup  \
+ 0                       39.94             3.920364   
+ 1                       67.29             5.102309   
+ 2                      111.99             6.324997   
+ 3                      215.54            11.733824   
+ 
+    paper_substitution_speedup  your_torch_vs_paper_gpu_ratio  
+ 0                    8.795944                      19.882819  
+ 1                   10.234953                      18.659025  
+ 2                   12.008394                      16.787731  
+ 3                   19.565510                      13.751257  
+ 
+ [4 rows x 22 columns])
